@@ -11,6 +11,8 @@
 		64E2DB5A2A961E69006FBF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2DB592A961E69006FBF0D /* ContentView.swift */; };
 		64E2DB5C2A961E6B006FBF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E2DB5B2A961E6B006FBF0D /* Assets.xcassets */; };
 		64E2DB5F2A961E6B006FBF0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E2DB5E2A961E6B006FBF0D /* Preview Assets.xcassets */; };
+		64E2DB662A961EF9006FBF0D /* DirectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2DB652A961EF9006FBF0D /* DirectionModel.swift */; };
+		64E2DB682A9621D1006FBF0D /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2DB672A9621D1006FBF0D /* Engine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		64E2DB592A961E69006FBF0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64E2DB5B2A961E6B006FBF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E2DB5E2A961E6B006FBF0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64E2DB652A961EF9006FBF0D /* DirectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionModel.swift; sourceTree = "<group>"; };
+		64E2DB672A9621D1006FBF0D /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				64E2DB572A961E69006FBF0D /* SnakeGameApp.swift */,
 				64E2DB592A961E69006FBF0D /* ContentView.swift */,
+				64E2DB652A961EF9006FBF0D /* DirectionModel.swift */,
+				64E2DB672A9621D1006FBF0D /* Engine.swift */,
 				64E2DB5B2A961E6B006FBF0D /* Assets.xcassets */,
 				64E2DB5D2A961E6B006FBF0D /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E2DB5A2A961E69006FBF0D /* ContentView.swift in Sources */,
+				64E2DB682A9621D1006FBF0D /* Engine.swift in Sources */,
+				64E2DB662A961EF9006FBF0D /* DirectionModel.swift in Sources */,
 				64E2DB582A961E69006FBF0D /* SnakeGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
